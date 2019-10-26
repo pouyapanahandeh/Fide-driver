@@ -1,0 +1,62 @@
+➜  Driver_chatbot git:(master) ✗ sudo python3 app.py 
+ * Serving Flask app "app" (lazy loading)
+ * Environment: production
+   WARNING: This is a development server. Do not use it in a production deployment.
+   Use a production WSGI server instead.
+ * Debug mode: on
+ * Running on http://127.0.0.1:70/ (Press CTRL+C to quit)
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 164-828-412
+127.0.0.1 - - [26/Oct/2019 12:58:19] "GET /?hub.mode=subscribe&hub.challenge=575740254&hub.verify_token=test_token HTTP/1.1" 200 -
+127.0.0.1 - - [26/Oct/2019 13:01:54] "POST / HTTP/1.1" 200 -
+127.0.0.1 - - [26/Oct/2019 13:01:55] "POST / HTTP/1.1" 200 -
+127.0.0.1 - - [26/Oct/2019 13:01:56] "POST / HTTP/1.1" 200 -
+127.0.0.1 - - [26/Oct/2019 13:01:56] "POST / HTTP/1.1" 200 -
+127.0.0.1 - - [26/Oct/2019 13:01:58] "POST / HTTP/1.1" 200 -
+127.0.0.1 - - [26/Oct/2019 13:01:58] "POST / HTTP/1.1" 200 -
+127.0.0.1 - - [26/Oct/2019 13:02:05] "POST / HTTP/1.1" 200 -
+ * Detected change in '/Users/pingguo/Desktop/Driver_chatbot/app.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 164-828-412
+ * Detected change in '/Users/pingguo/Desktop/Driver_chatbot/app.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 164-828-412
+Welcome to fide driver page :) How can I help you?
+                        
+ 1. Greetings 
+ 2. Authentication 
+ 3. Payment 
+ 4.Rate us * Detected change in '/Users/pingguo/Desktop/Driver_chatbot/app.py', reloading
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 164-828-412
+Welcome to fide driver page :) How can I help you?
+                        
+ 1. Greetings 
+ 2. Authentication 
+ 3. Payment 
+ 4. Rate us
+Welcome to fide driver page :) How can I help you?
+                        
+ 1. Greetings 
+ 2. Authentication 
+ 3. Payment 
+ 4. Rate us127.0.0.1 - - [26/Oct/2019 13:07:49] "POST / HTTP/1.1" 200 -
+1
+Welcome to fide driver page :) How can I help you?
+                        
+ 1. Greetings 
+ 2. Authentication 
+ 3. Payment 
+ 4. Rate us127.0.0.1 - - [26/Oct/2019 13:08:05] "POST / HTTP/1.1" 200 -
+1
+Welcome to fide driver page :) How can I help you?
+                        
+ 1. Greetings 
+ 2. Authentication 
+ 3. Payment 
+ 4. Rate us127.0.0.1 - - [26/Oct/2019 13:08:11] "POST / HTTP/1.1" 200 -
+1
