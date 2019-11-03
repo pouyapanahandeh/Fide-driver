@@ -10,8 +10,8 @@ Installation:
 >> Requirements
 - Python 3.3+ or Python 2.7
 - macOS or Linux (Windows not officially supported, but might work)
-- Installation of the package required to run this file which is "face_recognition" via running the following command in  ypur command prompt: 
-pip install face_recognition.
+- Installation of the package required to run this file which is "face_recognition" via running the following command in  yur command prompt: 
+pip3 install face_recognition.
 
 
 >> How to run
