@@ -5,10 +5,17 @@ Fide Driver Bot.
 Face-Detection
 A  face detection script that identifies faces in an image.
 
-How to Run
+Installation: 
 
-1- Install  the package required to run this file which is "face_recognition" via running the following command in  ypur command prompt:   pip install face_recognition.
+>> Requirements
+- Python 3.3+ or Python 2.7
+- macOS or Linux (Windows not officially supported, but might work)
+- Installation of the package required to run this file which is "face_recognition" via running the following command in  ypur command prompt: 
+pip install face_recognition.
 
-2- Place  images inside of the root direcotry called "Test1" and "Test2". These will be the files that faces will be identified and matched in.
+
+>> How to run
+
+1- Place  images inside of the root direcotry called "Test1" and "Test2". These will be the files that faces will be identified and matched in.
  
-3- Finallly run the "detect_face.py" script.
+2- Run the "detect_face.py" script.
