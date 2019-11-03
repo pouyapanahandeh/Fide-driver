@@ -3,7 +3,7 @@ Fide Driver Bot.
 
 
 Face-Detection
-A  face Detection script that identifies faces in an image.
+A  face detection script that identifies faces in an image.
 
 How to Run
 
