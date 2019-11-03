@@ -2,9 +2,7 @@
 # -*- coding: utf-8 -*-
 """
     Created on Sat Oct 26 17:28:35 2019
-    
-    @author: liusirui
-    """
+
 
 
 import face_recognition
@@ -17,7 +15,7 @@ from PIL import Image, ImageDraw
 
 # Load a sample picture and learn how to recognize it.
 
-george_image = face_recognition.load_image_file("/Users/pingguo/Desktop/Face_recognition/George-W-Bush.jpeg")
+george_image = face_recognition.load_image_file("C:/Users/SARA/Desktop/face/George-W-Bush.jpeg")
 george_face_encoding = face_recognition.face_encodings(george_image)[0]
 
 # Create arrays of known face encodings and their names
@@ -30,7 +28,7 @@ print('Learned encoding for', len(known_face_encodings), 'images.')
 
 
 # Load an image with an unknown face
-unknown_image = face_recognition.load_image_file("/Users/pingguo/Desktop/Face_recognition/george2.jpg")
+unknown_image = face_recognition.load_image_file("C:/Users/SARA/Desktop/face/George2.jpeg")
 
 # Find all the faces and face encodings in the unknown image
 face_locations = face_recognition.face_locations(unknown_image)
