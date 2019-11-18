@@ -30,4 +30,4 @@ In this version, I used the dlib.get_frontal_face_detector for the face detectio
 In the next generation, I am going to find way for calculating the desired rotation angle.
 
 Output:
-In the output directory, you can see the up-to-date outputs. (i.e. face detection, eyes detection) 
+In the output files, you can see the up-to-date outputs. (i.e. face detection, eyes detection) 
