@@ -1,9 +1,11 @@
+------------------------------------------------------------------------------------------
 Introduction:
 
 This is the initial commit for the human face detection. Here we use 2 images online for testing. Later we can verify the output by adding sample of real life case such as selfies.
 
 
 
+------------------------------------------------------------------------------------------
 Running environment:
 
 Mac os
@@ -13,6 +15,7 @@ PIL
 numpy>=1.9.2
 
 
+------------------------------------------------------------------------------------------
 Method:
 
 Our target dataset would be simply the driver's selfie. 
@@ -23,6 +26,7 @@ In the next generation, I am going to do the face detection on identication card
 
 
 
+------------------------------------------------------------------------------------------
 Output:
 In the face_recognition_output.png file, we can see the rectangle box drawing the recognized face. 
 
