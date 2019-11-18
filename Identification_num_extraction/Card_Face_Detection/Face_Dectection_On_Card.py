@@ -1,3 +1,11 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""
+    Created on Sat Oct 26 17:28:35 2019
+    
+    @author: liusirui
+    """
+
 from importlib import reload
 import pytesseract
 import cv2
@@ -11,18 +19,19 @@ import re
 from PIL import Image
 import pytesseract
 
-# 使用dlib.get_frontal_face_detector识别人脸
+# Using dlib.get_frontal_face_detector to detect the human face
 detector = dlib.get_frontal_face_detector( )
 image = io.imread("/Users/pingguo/Desktop/identification_recognization/Card_test.jpg")
-dets = detector(image, 2)  # 使用detector进行人脸检测 dets为返回的结果
+# Save result in dets
+dets = detector(image, 2)  
 
-# 将识别的图像可视化
+# Draw the detected rectangle
 plt.figure()
 ax = plt.subplot(111)
 ax.imshow(image)
 plt.axis("off")
 for i, face in enumerate(dets):
-    # 在图片中标注人脸，并显示
+    # draw the human face
     left = face.left( )
     top = face.top( )
     right = face.right( )
@@ -31,3 +40,18 @@ for i, face in enumerate(dets):
                               fill=False, edgecolor='red', linewidth=1)
     ax.add_patch(rect)
 plt.show( )
+
+# Detecting the eyes
+predictor = dlib.shape_predictor("shape_predictor_5_face_landmarks.dat")
+detected_landmarks = predictor(image, dets[0]).parts( )
+landmarks = np.array([[p.x, p.y] for p in detected_landmarks])
+
+# Draw the eyes 
+plt.figure( )
+ax = plt.subplot(111)
+ax.imshow(image)
+plt.axis("off")
+plt.plot(landmarks[0:4, 0], landmarks[0:4, 1], 'ro')
+for ii in np.arange(4):
+    plt.text(landmarks[ii, 0] - 10, landmarks[ii, 1] - 15, ii)
+plt.show( )    

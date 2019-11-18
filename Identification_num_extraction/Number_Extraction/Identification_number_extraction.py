@@ -1,3 +1,11 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""
+    Created on Sat Oct 26 17:28:35 2019
+    
+    @author: liusirui
+    """
+
 from importlib import reload
 import pytesseract
 import cv2

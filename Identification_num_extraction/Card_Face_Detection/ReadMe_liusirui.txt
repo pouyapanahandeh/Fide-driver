@@ -25,8 +25,9 @@ Our target dataset would be the Hungarian license card and identification card. 
 
 In this version, I used the dlib.get_frontal_face_detector for the face detection and then draw the rectangle within the detected area. It is work perfectly with the current image, while in real case it may happen that the input photo with bad quality (i.e. weird perspective, full of noise and so on).
 
-In the next generation, I am going to work on the effient way to calculate the specific angle for rotation.
+** Update: Adding the eyes feature detection and drawn in red points.
 
+In the next generation, I am going to find way for calculating the desired rotation angle.
 
 Output:
-In the uploaded picture, you can see the desired output on our sample. 
+In the output directory, you can see the up-to-date outputs. (i.e. face detection, eyes detection) 
