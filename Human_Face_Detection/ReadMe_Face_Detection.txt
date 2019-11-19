@@ -2,8 +2,13 @@
 Introduction:
 
 This is the initial commit for the human face detection. Here we use 2 images online for testing. Later we can verify the output by adding sample of real life case such as selfies.
+
+
 ------------------------------------------------------------------------------------------
-**Updates: Complete the face-detection verification by adding tests on both the user's immigration card and real life selfies.  
+**Updates: Complete the face-detection verification by adding tests on both the user's immigration card and real life selfies. 
+
+------------------------------------------------------------------------------------------
+**Updates: Complete the card-to-face matching with the tolerence 0.6. Test by the george pic, card pic and 2 selfies.
 
 
 ------------------------------------------------------------------------------------------
@@ -30,8 +35,9 @@ In the next generation, I am going to do the face detection on identication card
 ------------------------------------------------------------------------------------------
 Output:
 In the face_recognition_output.png file, we can see the rectangle box drawing the recognized face. 
-1. one on immigration card
-2. two on selfies
+1. output of face detection on immigration card
+2. output of face detection on two selfies
+3. output of face mapping from card to selfies
 
 
 
