@@ -1,0 +1,23 @@
+ /Users/pingguo/.virtualenvs/Homography/bin/python "/Users/pingguo/Desktop/Software Tech/identification_recognization/Adding_image_processing.py"
+                          text  textlen
+0                  0006 0807 3       11
+1                                     3
+2      a TARTÓZKODÁSI ENGEDÉLY       23
+3                       NEVE )        6
+4           PANAHANDEIH POUY A       18
+5        FRVÉENYESSÉEGI IDÉEJE       21
+6                14 DEC/DEC 20       13
+7           (ADAS HELYE, 1DEJE       18
+8       UDAPEST, 23 JAN/JAN 19       22
+9                 KMANY TIPUSA       12
+10            kodási engedély/       16
+11               idence permit       13
+12  L l_;:nu_lmún_vi, CAN szám       26
+13     j § Studies 4 0 0 ó 9 5       23
+14                     ALÁIRÁS        7
+15                       hivw/        5
+16           RESIDENCE PÉERMII       17
+17            im . MÉEGJEGYZES       16
+Detected identification number is:  000608073
+
+Process finished with exit code 0
